@@ -177,3 +177,4 @@ time_for_camera = fzero(p, [t_values(2), t_values(3)]);
 
 fprintf('The camera should trigger at: %.2f s\n', time_for_camera);
 
+
