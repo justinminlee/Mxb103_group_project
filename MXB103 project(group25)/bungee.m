@@ -138,8 +138,7 @@ total_distance = sum(abs(v) + [0, abs(v(1:end-1))]) * 0.5 * dt;
 
 fprintf('Total distance traveled by the jumper in 60 seconds: %.2f m\n', total_distance);
 
-%% Task 5 (look for 3.3 seconds for the answer(tutor mentioned)
-
+%% Task 5 
 
 %identifying index
 D_val = H - D;
