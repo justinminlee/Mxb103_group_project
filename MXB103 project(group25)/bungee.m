@@ -130,6 +130,7 @@ hold off;
 % Print maximum acceleration and its timing
 fprintf('Maximum acceleration: %.2f m/s^2\n', abs(max_accel));
 fprintf('Time of maximum acceleration: %.2f s\n', time_of_max_accel);
+fprintf('The G Force at Maximum acceleration is: %.2f g\n', abs(max_accel/9.81))
 
 %% Task 4
 
