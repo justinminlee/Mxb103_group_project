@@ -57,7 +57,7 @@ figure;
 plot(0:dt:(T-dt), y);
 xlabel('Time (s)');
 ylabel('Distance from jumping point');
-title('Position vs Time Using Modified Euler');
+title('Position vs Using Fourth Order Runge-Kutta (RK4)');
 
 %% Plot: Velocity vs Time with Max Speed(Task 2)
 
@@ -77,7 +77,7 @@ figure;
 plot(0:dt:(T-dt), y);
 xlabel('Time (s)');
 ylabel('Position (m)-Velocity (m/s)');
-title('Position/Velocity vs Time Using Modified Euler');
+title('Position/Velocity vs Time Using Fourth Order Runge-Kutta (RK4)');
 hold on;
 plot(0:dt:(T-dt), v);
 
@@ -139,7 +139,8 @@ total_distance = sum(abs(v) + [0, abs(v(1:end-1))]) * 0.5 * dt;
 
 fprintf('Total distance traveled by the jumper in 60 seconds: %.2f m\n', total_distance);
 
-%% Task 5 
+%% Task 5 (look for 3.3 seconds for the answer(tutor mentioned)
+
 
 %identifying index
 D_val = H - D;
