@@ -1,3 +1,5 @@
+%Please note, we are using the findpeaks function(the Signal processing toolbox is required for this to run.)
+%We were informed by our tutor that this shouldnt be a problem but mentioning it anyway.)
 % Parameters
 H = 74; % Height of jump point
 D = 31; % Deck height
